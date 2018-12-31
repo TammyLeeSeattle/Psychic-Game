@@ -3,12 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>The Psychic Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../Psychic-Game/assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="../Psychic-Game/assets/javascript/game.js"></script>
 </head>
+
 <body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1>The Psychic Game</h1>
+            <h4>Guess what letter I'm thinking of!</h4>
+        </div>
+
+        <div>
+            <h7>Press any letter on your keyboard to make a guess... Good luck :)</h3>
+        </div>
+        
+        <div class="lead mt-0">
+            <p>Your guesses so far: <span id="failedGuesses"></span></p>
+            <p>Wins: <span id="winCounter"></span></p>
+            <p>Losses: <span id="lossCounter"></span></p>
+            <p>Guesses Left: <span id="guessesLeft"></span></p>
+        </div>
+
+    </div>
     
+
 </body>
 </html>
