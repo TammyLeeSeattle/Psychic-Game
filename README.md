@@ -15,13 +15,12 @@ You have nine chances to guess the letter that the computer is thinking of. If y
 Here's a demo: <a href="https://youtu.be/qTc45Lox97g" target="_blank">https://youtu.be/qTc45Lox97g</a>
 
 ## How to get started
-------------------------
 
 Press any letter to win the game!
 
 **HINT:** The computer will only be thinking of alphabetical letters, so don't pick special characters as guesses!
 
 ## Need help?
------------------
+
 
 Send me a note at crowley3@gmail.com. I'm the author of the project, so I'll be the mechanic to fix it :)
